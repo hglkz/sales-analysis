@@ -23,14 +23,6 @@ FROM sales_yr
 GROUP BY region_id
 HAVING number_of_stores > 1;
 
-/*Question: what won't this query work?*/
-SELECT locations.region_id, locations.region_name,
- COUNT(DISTINCT store_id) AS number_of_stores
-FROM sales_yr
-LEFT JOIN locations ON sales_yr.region_id = locations.region_id
-GROUP BY locations.region_id
-HAVING number_of_stores > 1;
-
 /*KPIs: Averages revenue per store*/
 SELECT 
  ROUND(SUM(sales)/COUNT(DISTINCT store_id), 2) AS avg_revenue_per_store,
