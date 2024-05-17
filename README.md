@@ -1,9 +1,9 @@
 # Overview
-In this project, I examined trends in 2021 sales of bike stores located in Spain. The dataset was comprised of the following tables: sales, customers, locations, products, sales_agents, and stores. I examined the main KPIs, including total revenue, profit, and profit margin, number of repeat customers, monthly sales trend, and sales trends by region. 
+In this project, I investigated sales trends for bike stores in Spain in 2021. The dataset included tables such as sales, customers, locations, products, sales_agents, and stores. 
 
-The analysis revealed a spike in bike sales in the 4th quarter of the year. The majority of this spike can be attributed to the sales made in the region of Castilla y León. 
+I analyzed key performance indicators like total revenue, profit, profit margin, number of repeat customers, monthly sales trends, and regional sales trends.
 
-The analysis further demonstrates that over 50% of the overall sales can be attributed to the three (out of 16) top performing regions: Castilla y León, Aragón, and Cataluña.
+The analysis uncovered a significant increase in bike sales during the fourth quarter, primarily driven by sales in the Castilla y León region. Additionally, it revealed that over 50% of total sales originated from just three of the 16 regions: Castilla y León, Aragón, and Cataluña.
 
 # Dataset
 The dataset was sourced from FP20 Analytics 2023 dataset https://www.fp20analytics.com/datasets-2023 (name: San Martin's Stores Analysis).
